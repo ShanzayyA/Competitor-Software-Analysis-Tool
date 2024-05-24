@@ -1,2 +1,14 @@
 # Competitor-Software-Analysis-Tool
- This project helps users identify competitor software tools in their industry by analyzing data from two datasets, providing an overall rating and relevant information for each competitor software based on user input.
+
+This program was created to help users find competitor software tools in the market according to the industry they work in, and provide them an overall rating of the reviews for that software. The program works by letting the user enter the name of a software tool. The program retrieves the data and produces a result in JSON format to be displayed in the front-end of a website.
+
+- The program finds competitor software from two datasets
+
+input:
+    software: the name of a software or a sub-category
+    
+output:
+     a JSON file in JSON array format (called industry_name.json)
+
+usage:
+    `python` `industry_name.py` `software`
